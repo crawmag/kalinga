@@ -1,14 +1,14 @@
 
-body{
-    background-image: url(../images/finished2.png);
-    background-repeat: no-repeat;
-    background-size: 100% ;
-    margin: 0;
-    text-align: center;
-    font-family: 'Special Elite', cursive;
-    word-spacing: 10px;
-    line-height: 30px;
-}
+@media only screen and (max-width: 700px){
+    img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+} 
+@media only screen and (min-width: 700px){
+    
 #about{
     margin: 10% 20%;
 }
@@ -35,3 +35,72 @@ h1{
     justify-content: space-evenly;
     margin: 5% 15% 10% 15%;
 }
+}
+#body{
+    margin: 0%;
+}
+#navbar{
+    background-color: transparent;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    /* width: 100%; */
+    z-index: 2;
+}
+#navbar a{
+    color: #A6A6A6;
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 25px;
+    padding: 0px 5px;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+}
+
+
+body{
+    background-image: url(../images/finished2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 10px;
+    line-height: 30px;
+ }
+ img:hover{
+     transform: scale(1.5);
+ }
+ /*
+#about{
+    margin: 10% 20%;
+}
+#about h1{
+    margin-top: 25%;
+}
+#about p{
+    margin-top: 5%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+h1{
+    margin-top: 10%;
+}
+
+#new,
+#apparel,
+#jewelry,
+#decor,
+#embroidery{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 15% 10% 15%;
+} */
